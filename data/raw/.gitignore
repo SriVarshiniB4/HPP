@@ -1,0 +1,10 @@
+data/raw/*
+data/processed/*
+data/features/*
+data/output/*
+models/*
+!models/house_price_model.pkl   # keep ONLY the final model file
+__pycache__/
+venv/
+*.ipynb_checkpoints
+.DS_Store
