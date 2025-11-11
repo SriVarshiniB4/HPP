@@ -1,0 +1,30 @@
+/* Background Gradient */
+body {
+    background: linear-gradient(135deg, #d7eefc, #ffe5ec);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Align app title */
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color:#0077b6;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    padding:12px 25px;
+    transition:0.3s;
+}
+.stButton>button:hover {
+    background-color:#023e8a;
+    transform: scale(1.06);
+}
+
+/* Card style input container */
+.block-container {
+    padding: 2rem 3rem;
+}
